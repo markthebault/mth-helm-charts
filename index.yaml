@@ -3,7 +3,7 @@ entries:
   cp-control-center:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.033955122+01:00"
+    created: "2020-01-15T17:49:02.34161371+01:00"
     description: A Helm chart Confluent Control Center for Kubernetes
     digest: 41b7c0b6834f38b79853251338731a1cc2d27516db21d1457d5909794bbe3150
     name: cp-control-center
@@ -13,7 +13,7 @@ entries:
   cp-helm-charts:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.045829986+01:00"
+    created: "2020-01-15T17:49:02.352439146+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -52,7 +52,7 @@ entries:
   cp-kafka:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.047583227+01:00"
+    created: "2020-01-15T17:49:02.353310929+01:00"
     description: A Helm chart for Confluent Kafka on Kubernetes
     digest: 1d125ae754e9258dd0feef773e46f073b1de974364be5cd167a281160a41a8f5
     name: cp-kafka
@@ -62,7 +62,7 @@ entries:
   cp-kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.049123562+01:00"
+    created: "2020-01-15T17:49:02.353984471+01:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 764425e1d81ebf8ef6d9fde5360ee0ed36b313adf758ce3d7322cbe042bb01d3
     name: cp-kafka-connect
@@ -72,7 +72,7 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.050628331+01:00"
+    created: "2020-01-15T17:49:02.355483896+01:00"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: c3126a7176b3091a875c438037ec4635e9f80676e5f2d3cba556ac7c7856dd8f
     name: cp-kafka-rest
@@ -82,7 +82,7 @@ entries:
   cp-ksql-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.052443373+01:00"
+    created: "2020-01-15T17:49:02.356520222+01:00"
     description: A Helm chart for Confluent KSQL Server on Kubernetes
     digest: a2a2954a8f95bc9ea7d262ef41ea51977227f189227c98b306276eefc4f738d4
     name: cp-ksql-server
@@ -92,7 +92,7 @@ entries:
   cp-schema-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.053921768+01:00"
+    created: "2020-01-15T17:49:02.357230642+01:00"
     description: A Helm chart for Confluent Schema Registry on Kubernetes
     digest: 88bc71d09ff5f0cf4fe80bdfe9cb54e77e01dca37488bda50c97a2f7da3aab38
     name: cp-schema-registry
@@ -102,7 +102,7 @@ entries:
   cp-zookeeper:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-15T17:46:56.055390275+01:00"
+    created: "2020-01-15T17:49:02.358118121+01:00"
     description: A Helm chart for Confluent Zookeeper on Kubernetes
     digest: 42c1d519fa19b12715333f03db1b8eb4ca00d7aba753436770c66b8912957fe3
     name: cp-zookeeper
@@ -112,9 +112,9 @@ entries:
   stardog:
   - apiVersion: v1
     appVersion: 6.2.3
-    created: "2020-01-15T17:46:56.058418293+01:00"
+    created: "2020-01-15T17:49:02.360048654+01:00"
     description: Stardog Helm Chart
-    digest: 3fd292140ab51ba40603974519a7d1ef6fab852093a71fe3184a42d312e4d788
+    digest: 8cb15b634dc4ffc083fea59bdf38996bacbcc7a1066b144b8c30e147290f1f72
     home: https://www.stardog.com/
     icon: https://d33wubrfki0l68.cloudfront.net/img/c920235ff153186ab17617ce2bce193d867fa80c/stardog-logo.png
     maintainers:
@@ -124,4 +124,4 @@ entries:
     urls:
     - stardog-0.2.0.tgz
     version: 0.2.0
-generated: "2020-01-15T17:46:56.032906376+01:00"
+generated: "2020-01-15T17:49:02.340698502+01:00"
