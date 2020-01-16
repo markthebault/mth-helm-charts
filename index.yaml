@@ -3,9 +3,9 @@ entries:
   cp-control-center:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.269861344+01:00"
+    created: "2020-01-16T17:17:14.584390351+01:00"
     description: A Helm chart Confluent Control Center for Kubernetes
-    digest: 6407c1bd729f0eec9d8f6a6b27e809591188e8e697889c8308763c2c399cc6a8
+    digest: 917c02e13beb7792b98551d662b4171bf06e381d65f2502ca6bbba9bd9910394
     name: cp-control-center
     urls:
     - cp-control-center-0.1.0.tgz
@@ -13,7 +13,7 @@ entries:
   cp-helm-charts:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.282732278+01:00"
+    created: "2020-01-16T17:17:14.591431346+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -52,7 +52,7 @@ entries:
   cp-kafka:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.284198541+01:00"
+    created: "2020-01-16T17:17:14.592387919+01:00"
     description: A Helm chart for Confluent Kafka on Kubernetes
     digest: 1d125ae754e9258dd0feef773e46f073b1de974364be5cd167a281160a41a8f5
     name: cp-kafka
@@ -62,7 +62,7 @@ entries:
   cp-kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.285582137+01:00"
+    created: "2020-01-16T17:17:14.593379975+01:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 764425e1d81ebf8ef6d9fde5360ee0ed36b313adf758ce3d7322cbe042bb01d3
     name: cp-kafka-connect
@@ -72,7 +72,7 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.286528401+01:00"
+    created: "2020-01-16T17:17:14.595267396+01:00"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: c3126a7176b3091a875c438037ec4635e9f80676e5f2d3cba556ac7c7856dd8f
     name: cp-kafka-rest
@@ -82,7 +82,7 @@ entries:
   cp-ksql-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.287396451+01:00"
+    created: "2020-01-16T17:17:14.596081461+01:00"
     description: A Helm chart for Confluent KSQL Server on Kubernetes
     digest: a2a2954a8f95bc9ea7d262ef41ea51977227f189227c98b306276eefc4f738d4
     name: cp-ksql-server
@@ -92,7 +92,7 @@ entries:
   cp-schema-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.288140876+01:00"
+    created: "2020-01-16T17:17:14.596699754+01:00"
     description: A Helm chart for Confluent Schema Registry on Kubernetes
     digest: 88bc71d09ff5f0cf4fe80bdfe9cb54e77e01dca37488bda50c97a2f7da3aab38
     name: cp-schema-registry
@@ -102,7 +102,7 @@ entries:
   cp-zookeeper:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T17:14:26.289107631+01:00"
+    created: "2020-01-16T17:17:14.597740517+01:00"
     description: A Helm chart for Confluent Zookeeper on Kubernetes
     digest: 42c1d519fa19b12715333f03db1b8eb4ca00d7aba753436770c66b8912957fe3
     name: cp-zookeeper
@@ -112,7 +112,7 @@ entries:
   stardog:
   - apiVersion: v1
     appVersion: 6.2.3
-    created: "2020-01-16T17:14:26.294801658+01:00"
+    created: "2020-01-16T17:17:14.601606351+01:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -132,7 +132,7 @@ entries:
   zookeeper:
   - apiVersion: v1
     appVersion: 3.5.6
-    created: "2020-01-16T17:14:26.296612394+01:00"
+    created: "2020-01-16T17:17:14.603483068+01:00"
     description: A centralized service for maintaining configuration information,
       naming, providing distributed synchronization, and providing group services
       for distributed applications.
@@ -150,4 +150,4 @@ entries:
     urls:
     - zookeeper-5.3.3.tgz
     version: 5.3.3
-generated: "2020-01-16T17:14:26.266566433+01:00"
+generated: "2020-01-16T17:17:14.583404552+01:00"
