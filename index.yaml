@@ -3,7 +3,7 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: 1.5.4
-    created: "2020-01-27T09:54:17.283718265+01:00"
+    created: "2020-01-27T13:04:22.209501117+01:00"
     description: Deploy components for aad-pod-identity
     digest: 25e77c9fd020e633ee0d2fbfd0e289fb665ea5c3a2bdce182656eae150259795
     home: https://github.com/Azure/aad-pod-identity
@@ -16,10 +16,24 @@ entries:
     urls:
     - aad-pod-identity-1.5.4.tgz
     version: 1.5.4
+  azure-key-vault-controller:
+  - apiVersion: v1
+    appVersion: 0.1.15
+    created: "2020-01-27T13:04:22.211512608+01:00"
+    description: A Helm chart that deploys a Kubernetes controller that transform
+      Azure Key Vault Secrets into Kubernetes Secrets
+    digest: 3ff75fa8ab7dacbcd827045c0e5b931089a25eefc70e464ff56ebf8863b558e1
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-controller
+    urls:
+    - azure-key-vault-controller-0.1.23.tgz
+    version: 0.1.23
   cp-control-center:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.284487204+01:00"
+    created: "2020-01-27T13:04:22.213598519+01:00"
     description: A Helm chart Confluent Control Center for Kubernetes
     digest: 77303538ec7308fef68bb35e91fb7013d3b6198f79561093c11fc4362f0c1732
     name: cp-control-center
@@ -29,7 +43,7 @@ entries:
   cp-helm-charts:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.291753713+01:00"
+    created: "2020-01-27T13:04:22.238809411+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -68,7 +82,7 @@ entries:
   cp-kafka:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.292753177+01:00"
+    created: "2020-01-27T13:04:22.240462531+01:00"
     description: A Helm chart for Confluent Kafka on Kubernetes
     digest: 1d125ae754e9258dd0feef773e46f073b1de974364be5cd167a281160a41a8f5
     name: cp-kafka
@@ -78,7 +92,7 @@ entries:
   cp-kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.293403047+01:00"
+    created: "2020-01-27T13:04:22.241662206+01:00"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 764425e1d81ebf8ef6d9fde5360ee0ed36b313adf758ce3d7322cbe042bb01d3
     name: cp-kafka-connect
@@ -88,7 +102,7 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.294047747+01:00"
+    created: "2020-01-27T13:04:22.242806272+01:00"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: c3126a7176b3091a875c438037ec4635e9f80676e5f2d3cba556ac7c7856dd8f
     name: cp-kafka-rest
@@ -98,7 +112,7 @@ entries:
   cp-ksql-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.29475073+01:00"
+    created: "2020-01-27T13:04:22.244244805+01:00"
     description: A Helm chart for Confluent KSQL Server on Kubernetes
     digest: a2a2954a8f95bc9ea7d262ef41ea51977227f189227c98b306276eefc4f738d4
     name: cp-ksql-server
@@ -108,7 +122,7 @@ entries:
   cp-schema-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.29533533+01:00"
+    created: "2020-01-27T13:04:22.245415543+01:00"
     description: A Helm chart for Confluent Schema Registry on Kubernetes
     digest: 88bc71d09ff5f0cf4fe80bdfe9cb54e77e01dca37488bda50c97a2f7da3aab38
     name: cp-schema-registry
@@ -118,7 +132,7 @@ entries:
   cp-zookeeper:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T09:54:17.296179821+01:00"
+    created: "2020-01-27T13:04:22.24660935+01:00"
     description: A Helm chart for Confluent Zookeeper on Kubernetes
     digest: 42c1d519fa19b12715333f03db1b8eb4ca00d7aba753436770c66b8912957fe3
     name: cp-zookeeper
@@ -128,7 +142,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 6.5.2
-    created: "2020-01-27T09:54:17.299108023+01:00"
+    created: "2020-01-27T13:04:22.25181847+01:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: ddcc5aa17c71ea8e3a652820eec1060f3cee1d55e478f889f7f679faf9c002f7
     home: https://grafana.net
@@ -150,7 +164,7 @@ entries:
   stardog:
   - apiVersion: v1
     appVersion: 6.2.3
-    created: "2020-01-27T09:54:17.304853193+01:00"
+    created: "2020-01-27T13:04:22.262631075+01:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -170,7 +184,7 @@ entries:
   zookeeper:
   - apiVersion: v1
     appVersion: 3.5.6
-    created: "2020-01-27T09:54:17.306662088+01:00"
+    created: "2020-01-27T13:04:22.267772743+01:00"
     description: A centralized service for maintaining configuration information,
       naming, providing distributed synchronization, and providing group services
       for distributed applications.
@@ -188,4 +202,4 @@ entries:
     urls:
     - zookeeper-5.3.3.tgz
     version: 5.3.3
-generated: "2020-01-27T09:54:17.282048735+01:00"
+generated: "2020-01-27T13:04:22.205335975+01:00"
